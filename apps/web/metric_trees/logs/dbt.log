@@ -1,0 +1,94 @@
+[0m16:29:38.095991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff272420dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff27336ee50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff2731f8d30>]}
+
+
+============================== 16:29:38.103012 | 1028ed2b-ac56-481a-8118-35d79de221fb ==============================
+[0m16:29:38.103012 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:29:38.103911 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ravinangara/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/ravinangara/Documents/AABB/metric-trees-mcp/apps/web/metric_trees/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m16:29:38.264320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1028ed2b-ac56-481a-8118-35d79de221fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff27338d1c0>]}
+[0m16:29:38.285967 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:29:38.287042 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:29:38.289533 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.27061623, "process_user_time": 1.53534, "process_kernel_time": 0.271553, "process_mem_max_rss": "85164032", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:29:38.290185 [debug] [MainThread]: Command `dbt deps` succeeded at 16:29:38.290057 after 0.27 seconds
+[0m16:29:38.290751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff272420dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff273563b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff27338d1c0>]}
+[0m16:29:38.291325 [debug] [MainThread]: Flushing usage events
+[0m16:29:38.633438 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:18:37.768413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe07f3e0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe080b2e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe080af49d0>]}
+
+
+============================== 18:18:37.775166 | 2389f453-bb20-4e7c-b0fe-3a7e526d17b6 ==============================
+[0m18:18:37.775166 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:18:37.776114 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ravinangara/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/ravinangara/Documents/AABB/metric-trees-mcp/apps/web/metric_trees/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:18:37.950958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2389f453-bb20-4e7c-b0fe-3a7e526d17b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe0809df0a0>]}
+[0m18:18:37.977432 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:18:37.978706 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:18:37.981695 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.2978858, "process_user_time": 1.542819, "process_kernel_time": 0.308496, "process_mem_max_rss": "85049344", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:18:37.982444 [debug] [MainThread]: Command `dbt deps` succeeded at 18:18:37.982299 after 0.30 seconds
+[0m18:18:37.983103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe07f3e0df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe080e020a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe0809df0a0>]}
+[0m18:18:37.983676 [debug] [MainThread]: Flushing usage events
+[0m18:18:38.430573 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:18:50.024205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85e1460d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85e339e8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85dc48c4c0>]}
+
+
+============================== 18:18:50.028671 | 10c36940-44a9-4dd4-bc49-b8b3db19f1f0 ==============================
+[0m18:18:50.028671 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:18:50.029382 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/ravinangara/Documents/AABB/metric-trees-mcp/apps/web/metric_trees/logs', 'version_check': 'True', 'profiles_dir': '/Users/ravinangara/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt build', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:18:50.033327 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'metric_trees'
+[0m18:18:50.035423 [debug] [MainThread]: Resource report: {"command_name": "build", "command_wall_clock_time": 0.07959604, "process_user_time": 1.228663, "process_kernel_time": 0.154337, "process_mem_max_rss": "80343040", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:18:50.036049 [debug] [MainThread]: Command `dbt build` failed at 18:18:50.035928 after 0.08 seconds
+[0m18:18:50.036576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85e1460d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85e339fd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85e339fbb0>]}
+[0m18:18:50.037219 [debug] [MainThread]: Flushing usage events
+[0m18:18:50.375655 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:21:54.835347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784c2d3d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784d35d8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f78466824c0>]}
+
+
+============================== 18:21:54.842133 | 6631fd85-52ca-47d5-8598-df8a0676b254 ==============================
+[0m18:21:54.842133 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:21:54.843070 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ravinangara/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/ravinangara/Documents/AABB/metric-trees-mcp/apps/web/metric_trees/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt build', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:21:55.082066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6631fd85-52ca-47d5-8598-df8a0676b254', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784b197b80>]}
+[0m18:21:55.151941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6631fd85-52ca-47d5-8598-df8a0676b254', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784c848580>]}
+[0m18:21:55.153488 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m18:21:55.175465 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:21:55.176659 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:21:55.177267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6631fd85-52ca-47d5-8598-df8a0676b254', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784d880850>]}
+[0m18:21:56.592405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6631fd85-52ca-47d5-8598-df8a0676b254', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784daa28e0>]}
+[0m18:21:56.738696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6631fd85-52ca-47d5-8598-df8a0676b254', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784d806760>]}
+[0m18:21:56.739386 [info ] [MainThread]: Found 2 models, 4 data tests, 423 macros
+[0m18:21:56.741336 [info ] [MainThread]: 
+[0m18:21:56.741829 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:21:56.742335 [info ] [MainThread]: 
+[0m18:21:56.742998 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m18:21:56.747621 [debug] [ThreadPool]: Acquiring new postgres connection 'list_metric_tree'
+[0m18:21:56.817489 [debug] [ThreadPool]: Using postgres connection "list_metric_tree"
+[0m18:21:56.818219 [debug] [ThreadPool]: On list_metric_tree: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "metric_trees", "target_name": "dev", "connection_name": "list_metric_tree"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m18:21:56.818864 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:21:56.872636 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "local" to address: nodename nor servname provided, or not known
+
+[0m18:21:56.878027 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "metric_trees", "target_name": "dev", "connection_name": "list_metric_tree"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m18:21:56.878804 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m18:21:56.879534 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m18:21:56.880171 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m18:21:56.880824 [debug] [ThreadPool]: On list_metric_tree: No close available on handle
+[0m18:21:56.882031 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:21:56.882587 [debug] [MainThread]: Connection 'list_metric_tree' was properly closed.
+[0m18:21:56.883127 [info ] [MainThread]: 
+[0m18:21:56.883736 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m18:21:56.884514 [error] [MainThread]: Encountered an error:
+Database Error
+  could not translate host name "local" to address: nodename nor servname provided, or not known
+  
+[0m18:21:56.887683 [debug] [MainThread]: Resource report: {"command_name": "build", "command_wall_clock_time": 2.1316683, "process_user_time": 3.212989, "process_kernel_time": 0.377308, "process_mem_max_rss": "104443904", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:21:56.888414 [debug] [MainThread]: Command `dbt build` failed at 18:21:56.888277 after 2.13 seconds
+[0m18:21:56.889046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784c2d3d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784dbe04c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f784e834700>]}
+[0m18:21:56.889702 [debug] [MainThread]: Flushing usage events
+[0m18:21:57.379280 [debug] [MainThread]: An error was encountered while trying to flush usage events
