@@ -116,7 +116,7 @@ export default function Page() {
           <Sidebar
             industry={industry} setIndustry={setIndustry}
             product={product} setProduct={setProduct}
-            run={(payload)=>run(payload)}
+            run={(payload) => { void run(payload); }}
             useLLM={useLLM} setUseLLM={setUseLLM}
             useQdrant={useQdrant} setUseQdrant={setUseQdrant}
             onLint={onLint}
