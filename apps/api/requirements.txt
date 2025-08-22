@@ -1,0 +1,11 @@
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+numpy
+scikit-learn
+qdrant-client
+httpx
+beautifulsoup4
+pypdf
+fastmcp
+# add others your code imports (e.g., python-dotenv, lxml, pandas)
