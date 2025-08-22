@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: activation_rate
+    description: "Activation rate (last 28 days)."
+    tests:
+      - not_null:
+          column_name: activation_rate
+      - accepted_range:
+          column_name: activation_rate
+          min: 0
+          max: 1
+    meta:
+      owner: "Growth"
+      check_in: "weekly"
