@@ -90,3 +90,5 @@ export async function ideateMetrics(payload: {
 }) {
   return jpost('/metric-tree/ideate', payload);
 }
+// Back-compat aliases for older imports
+export { ingestUrl as ragIngestUrl, ingestFile as ragIngestFile };
