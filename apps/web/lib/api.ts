@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? '/api';
+const API = process.env.NEXT_PUBLIC_API_URL ?? '/api';
 
 async function jpost<T=any>(path: string, body: any): Promise<T> {
   const res = await fetch(`${API}${path}`, {
