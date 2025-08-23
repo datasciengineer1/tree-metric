@@ -116,7 +116,18 @@ export default function Page() {
           <Sidebar
             industry={industry} setIndustry={setIndustry}
             product={product} setProduct={setProduct}
-            run={(payload) => { void run(payload); }}
+            run={() => {
+  const payload = {
+    // use whatever you already send to run(...)
+    northStar: ns,
+    industry,
+    product,
+    useLLM,
+    useQdrant,
+  };
+  void run(payload); // call async, but return void to satisfy the prop type
+}}
+
             useLLM={useLLM} setUseLLM={setUseLLM}
             useQdrant={useQdrant} setUseQdrant={setUseQdrant}
             onLint={onLint}
