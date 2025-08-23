@@ -12,6 +12,8 @@ import { computePropagation } from '../lib/propagate';
 import { expandTree, explainNode, lintTree, ragSearch } from '../lib/api';
 import type { OwnerInfo } from '../lib/owners';
 
+
+
 export default function Page() {
   const [industry, setIndustry] = useState('eCommerce');
   const [product, setProduct]   = useState('consumer portal');
@@ -41,6 +43,8 @@ export default function Page() {
   const [showImporter, setShowImporter] = useState(false);
   const [showIngest, setShowIngest]     = useState(false);
   const [showIdeas, setShowIdeas]       = useState(false);
+
+  const [northStar, setNorthStar] = useState<string>('');
 
   const propagation = useMemo(() => {
     if (!tree) return { byId: {}, nsDelta: 0 };
@@ -118,14 +122,13 @@ export default function Page() {
             product={product} setProduct={setProduct}
             run={() => {
   const payload = {
-    // use whatever you already send to run(...)
-    northStar: ns,
+    northStar,      // <-- use your real state var name here
     industry,
     product,
     useLLM,
     useQdrant,
   };
-  void run(payload); // call async, but return void to satisfy the prop type
+  void run(payload); // call async but return void
 }}
 
             useLLM={useLLM} setUseLLM={setUseLLM}
